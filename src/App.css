@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1c;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.coin-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    color: #fff;
+}
+
+.coin-search {
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin-text {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.coin-input{ background: linear-gradient(to right, #7f00ff 0%, #e100ff 51%,  #7f00ff 100%);  }
+
+.coin-input {
+    padding-left: 1em;
+    padding-top: 0.125em;
+    width: 18.75em;
+    height: 3.125em;
+    border-radius: 0.25em;
+    border: none;
+    color: #fff;
+    background-size: 200% auto;   
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.coin-input:hover{
+        background-position:right center; 
+}
+
+.coin-input:focus{
+    outline: none;
+}
+
+.coin-input::placeholder{
+    color: #e2e2e2;
+    font-size: 1em;
+  
+}
+
+/* Heading Code */
+
+.cc{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    border-bottom: 0.0625em solid #d7d7d7;
+    width: 90%;
+
+}
+
+.c {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5em;
+    width: 20.75em;
+    justify-content: space-between;
+}
+
+ span{
+    font-weight: bold ;
+    color: #8f8f8f;
+    transition: 0.3s;
+}
+
+span:hover{
+    color: #d7d7d7;
+    cursor: pointer;
+}
+
+.c-d{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.c-p {
+    width: 6.875em;
+    text-align: center !important;
+}
+
+.c-v{
+    width: 12.5em;
+    text-align: center !important;
+}
+
+.c-m{
+    width: 15em;
+    text-align: right !important;
+}
+
+.c-c {
+    width: 5em;
+    text-align: right !important;
+}
+
+/*
+.coin-price {
+    width: 6.875em;
+    text-align: left !important;
+}
+
+.coin-volume {
+    width: 12.5em;
+}
+
+.coin-marketcap {
+    width: 15em;
+    text-align: right !important;
+}
+
+.coin-percent {
+    width: 5em;
+}
+*/
